@@ -3,6 +3,7 @@ import './Formulario.css';
 
 const Formulario = () => {
   const [nombre, setNombre] = useState('');
+
   const [correo, setCorreo] = useState('');
   const [comentarios, setComentarios] = useState('');
   const [mensaje, setMensaje] = useState('');
